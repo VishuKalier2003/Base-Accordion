@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #022b3a;
+}
+
+.btn-toggle {
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #dcedff;
+    color: #3772ff;
+    border-radius: 10%;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    height: 30px;
+    width: 30px;
+    margin-right: 25px;
+}
+
+.btn-toggle:hover {
+    border-radius: 50%;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    background-color: #3772ff;
+    color: #022b3a;
+}
+
+#container {
+    background-color: #3772ff;
+}
+
+.question {
+    position: relative;
+    width: 95vw;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #022b3a;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    height: 50px;
+    border: 3px solid #022b3a;
+    background-color: #dcedff;
+    box-shadow: 2px 2px 3px 4px #022b3a;
+}
+
+.answer {
+    width: 95vw;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    font-size: 1rem;
+    color: #dcedff;
+    background-color: #022b3a;
+    height: 0;
+    border: 3px solid #dcedff;
+    transform: translateY(-40px);
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    box-shadow: -2px -2px 3px 4px #dcedff;
+    z-index: -1;
+}
+
+.button-clicked {
+    transform: translateY(5px);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    height: 20px;
+    transition-duration: 1s;
+}
+
+.button-clicked1 {
+    height: 20px;
+    margin-bottom: 45px;
+    transition-duration: 1s;
+}
